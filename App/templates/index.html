@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pneumonia Prediction</title>
+</head>
+<body>
+    <h2>Chargement d'image pour prédiction</h2>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <label for="image">Sélectionnez une image de radiographie thoracique:</label>
+        <input type="file" id="image" name="image" accept="image/*">
+        <br>
+        <input type="submit" value="Soumettre">
+    </form>
+</body>
+</html>
